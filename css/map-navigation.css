@@ -1,0 +1,30 @@
+.info.map-heading {
+    box-sizing: border-box;
+    padding: 12px 16px 13px;
+    max-width: calc(100vw - 20px);
+}
+
+.info.map-heading .back-link {
+    display: inline-block;
+    margin-bottom: 11px;
+    font: 13px/1.2 Arial, sans-serif;
+    color: #444 !important;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.info.map-heading h2 {
+    margin: 0;
+    font: 600 19px/1.3 Arial, sans-serif;
+}
+
+@media (max-width: 480px) {
+    .info.map-heading {
+        max-width: calc(100vw - 82px);
+        padding: 9px 11px;
+    }
+    .info.map-heading h2 {
+        font-size: 15px;
+        overflow-wrap: break-word;
+    }
+}

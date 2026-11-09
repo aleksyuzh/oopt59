@@ -1,0 +1,64 @@
+body { 
+margin: 0; font: 14px/1.35 Arial, sans-serif; color: #222; background: #fff; 
+}
+header { 
+padding: 10px 10px; background: #E8EFE8; border-bottom: 1px solid #cbd3da; text-align: center; 
+}
+h1 { 
+color: #294B3A; margin: 0; font-size: 22px; font-weight: 600; text-align: center; 
+}
+main {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    min-height: calc(100vh - 71px);
+    border-bottom: 1px solid #cbd3da;
+}
+aside, article { 
+padding: 20px 25px; 
+}
+aside { 
+background: #ffffff; border-right: 1px solid #d8dee2; 
+}
+h2 { 
+color: #526558; margin: 0 0 9px; font-size: 18px; font-weight: 600; text-align: center; 
+}
+h3 { 
+margin: 17px 0 8px; font-size: 14px; font-weight: 600; text-align: center; 
+}
+aside section:first-of-type h3 { 
+margin-top: 0; 
+}
+nav { 
+display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 16px; 
+}
+a {
+    color: #245A60;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+a:hover {
+    color: #000;
+}
+article { 
+text-align: center; 
+}
+article img { 
+display: block; width: 100%; max-width: 980px; height: auto; margin: 0 auto 23px; 
+}
+article h2 { 
+margin-bottom: 13px; 
+}
+table { 
+width: 100%; border-collapse: collapse; font-size: 13px; 
+}
+th, td { 
+border: 1px solid #bfc7cd; padding: 9px 7px; text-align: center; vertical-align: middle; 
+}
+th { 
+font-weight: 600; 
+}
+td:nth-child(2) { 
+text-align: center; 
+}
+
